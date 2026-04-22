@@ -1,21 +1,37 @@
-<<<<<<< HEAD
-# React + Vite
+# 🔍 GitHub Profile Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive web application built using ReactJS that allows users to search and explore GitHub profiles in real-time.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🔎 Search any GitHub user by username
+- 📊 View profile details (avatar, bio, followers, following)
+- 📁 Display public repositories
+- ⚡ Fast and dynamic data fetching using GitHub API
+- 📱 Fully responsive UI
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- Vite
+- CSS / Tailwind (if used)
+- GitHub REST API
 
-## Expanding the ESLint configuration
+## 📸 Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# github-profile-finder
-Built a GitHub Profile Finder using ReactJS that integrates with the GitHub API to dynamically fetch and display user data, including repositories, followers, and profile statistics, with a responsive and user-friendly design.
->>>>>>> cb5e96df8c816b7a2fde34c8f4b55187f1b65efb
+_Add your project screenshot or live demo link here_
+
+## ⚙️ Installation & Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/Krishnakumar7255/github-profile-finder.git
+
+# Navigate to project folder
+cd github-profile-finder
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
